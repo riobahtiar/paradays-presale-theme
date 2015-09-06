@@ -1,5 +1,10 @@
 //Hotfix
-
+$tablet-width: 768px;
+$desktop-width: 1024px;
+$phone-width: 360px;
+.text-danger{
+	color:$brand-danger;
+}
 .panel-paradays{
 	background-color: transparent;
 	border-color: #373737;
@@ -99,6 +104,9 @@
 }
 .padding-left-zero{
 	padding-left: 0;
+	@media (max-width: 991px) {
+    padding-right: 0;
+	}
 }
 
 .product-container{
@@ -114,5 +122,76 @@ ol.breadcrumb{
 	padding-bottom: 0;
 	a{
 		color:#fff;
+	}
+}
+//Navbar
+.navbar-one{
+	min-height:22px;
+	.container{
+		ul.list-inline{
+			margin-bottom: 0;
+			padding-left: 5px;
+			li{
+				padding:5px;
+				border-bottom-style: solid;
+				border-bottom-color: #252525;
+				border-bottom-width: medium;
+				a{
+						color:#fff;
+				}
+				&.kuning{
+					padding-left: 10px;
+					padding-right: 10px;
+					border-bottom-color: #FDA803;
+				}
+				&:hover{
+					color:#fff;
+					border-bottom-color: #FDA803;
+				}
+			}
+
+		}
+	.navbar-header{
+		.navbar-toggle{
+		}
+	}
+	}
+}
+.navbar-two{
+	.navbar-header{
+		.navbar-toggle{
+			float:none;
+			background-color: transparent;
+			color:#fff;
+			border-color: #fff;
+			border-width: medium;
+			font-weight: bold;
+			&:hover{
+				background-color: #fff;
+				color:#030303;
+			}
+		}
+	}
+
+}
+.nav-pills{
+	@media (max-width: 500px) {
+    margin-bottom: 10px;
+	}	
+}
+// Modals
+.modal-fs{
+	background-color: #000000;
+	height:100%;
+	width:100%;
+	.modal-dialog{
+		border:none;
+		color:#fff;
+		background-color: inherit;
+		.modal-content{
+		border:none;
+		color:#fff;
+		background-color: inherit;
+		}
 	}
 }

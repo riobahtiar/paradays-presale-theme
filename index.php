@@ -7,101 +7,65 @@
     <title>Welcome to Paradays</title>
     <link href="assets/stylesheets/styles.css" rel="stylesheet">
     <link href="assets/stylesheets/font-awesome.min.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/packery/1.4.2/packery.pkgd.min.js"></script>
+    <script src="assets/js/packery.pkgd.min.js"></script>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v2.4&appId=216850005047284";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   </head>
   <body>
   <!-- Navbar One -->
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default navbar-one">
   <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group form-group-sm">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+ <ul class="list-inline">
+  <li class="kuning"><a href="#"><i class="fa fa-home"></i></a></li>
+  <li><a href="#">Ready Stock</a></li>
+  <li><a href="#">About us</a></li>
+</ul>
+  </div><!-- /.container -->
+  </nav>
 <header class="container">
 <div class="row">
-<section class="col-md-6">
+<section class="col-xs-12 col-sm-6 col-md-6">
   <img src="assets/img/logo.png" class="img-responsive">
   </br>
 </section>
-<section class="col-md-6">
-
+<section class="col-xs-12 col-sm-6 col-md-6">
+<span class="pull-right">
+<img src="assets/img/sms.png" class="img-responsive"><br>
+<ul class="list-inline">
+  <li><i class="fa fa-commenting"></i> <strong>Yahoo Messenger</strong></li>
+  <li><img src="assets/img/yonline.gif" class="img-responsive"></li>
+  <li><img src="assets/img/yonline.gif" class="img-responsive"></li>
+</ul>
+  </span>
 </section>
 </div>
 
   
 
 <!-- Navbar Two -->
-  <nav class="navbar navbar-default">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
-
+  <nav class="navbar navbar-default navbar-two">
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     <div class="navbar-header text-center">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-paradays" aria-expanded="false">
+        <span class="text-center"><i class="fa fa-reorder"> </i> MENU</span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="nav-paradays">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">SIZE CHART</a></li>
+        <li><a href="#">RESELLER INFO</a></li>
+        <li><a href="#">HOW TO BUY</a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>  
+        <li><a type="button" data-toggle="modal" data-target="#login"><i class="fa fa-sign-in"> </i> Login</a></li>  
       </ul>
     </div><!-- /.navbar-collapse -->
 
@@ -142,7 +106,7 @@
     </div>
     <div class="media-body">
       <h5 class="media-heading">A1 Bertahan<span class="pull-right">3 pcs</span></h5>
-      <h5 class="media-heading">XL Panjang<span class="pull-right"><span class="fa-stack fa-lg text-danger"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-trash-o fa-stack-1x fa-inverse"></i></span></span></h5>
+      <h5 class="media-heading">XL Panjang<span class="pull-right"><a href="#"><span class="fa-stack fa-lg text-danger"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-trash-o fa-stack-1x fa-inverse"></i></span></a></span></h5>
     </div>
     </li>
     <li class="list-group-item">
@@ -153,7 +117,7 @@
     </div>
     <div class="media-body">
       <h5 class="media-heading">A1 Bertahan<span class="pull-right">3 pcs</span></h5>
-      <h5 class="media-heading">XL Panjang<span class="pull-right"><span class="fa-stack fa-lg text-danger"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-trash-o fa-stack-1x fa-inverse"></i></span></span></h5>
+      <h5 class="media-heading">XL Panjang<span class="pull-right"><a href="#"><span class="fa-stack fa-lg text-danger"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-trash-o fa-stack-1x fa-inverse"></i></span></a></span></h5>
     </div>
     </li>
     <li class="list-group-item">
@@ -164,7 +128,7 @@
     </div>
     <div class="media-body">
       <h5 class="media-heading">A1 Bertahan<span class="pull-right">3 pcs</span></h5>
-      <h5 class="media-heading">XL Panjang<span class="pull-right"><span class="fa-stack fa-lg text-danger"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-trash-o fa-stack-1x fa-inverse"></i></span></span></h5>
+      <h5 class="media-heading">XL Panjang<span class="pull-right"><a href="#"><span class="fa-stack fa-lg text-danger"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-trash-o fa-stack-1x fa-inverse"></i></span></a></span></h5>
     </div>
     </li>
     <li class="list-group-item">
@@ -175,14 +139,23 @@
     </div>
     <div class="media-body">
       <h5 class="media-heading">A1 Bertahan<span class="pull-right">3 pcs</span></h5>
-      <h5 class="media-heading">XL Panjang<span class="pull-right"><span class="fa-stack fa-lg text-danger"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-trash-o fa-stack-1x fa-inverse"></i></span></span></h5>
+      <h5 class="media-heading">XL Panjang<span class="pull-right"><a href="#"><span class="fa-stack fa-lg text-danger"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-trash-o fa-stack-1x fa-inverse"></i></span></a></span></h5>
     </div>
     </li>
     <li class="list-group-item"><button class="btn btn-warning">Checkout</button> <span class="pull-right"><button class="btn btn-danger">Reset</button></span></li>
   </ul>
 </div>
-
-
+<!-- Social Facebook -->
+<div class="panel panel-paradays">
+  <div class="fb-page" data-href="https://www.facebook.com/infoparadays" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/infoparadays"><a href="https://www.facebook.com/infoparadays">Paradays.com</a></blockquote></div></div>
+</div>
+<!-- Social Twitter -->
+<div class="panel panel-paradays">
+<div class="panel-body">
+            <a class="twitter-timeline"  href="https://twitter.com/ParadaysID" data-widget-id="640290272341966848" data-chrome="noscrollbar noborders nofooter transparent">Tweet oleh @ParadaysID</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+</div>
 </aside>
 <div class="col-md-9">
 <ul class="nav nav-pills">
@@ -670,9 +643,66 @@
 </div><!-- end of row product -->
 </article>
 </div>
+<footer class="footer"><hr>
+  <div class="container">
+  <p class="pull-right">Copyright <i class="fa fa-copyright"></i> 2015 - Paradays.com. All right reserved</p>
+  </div>
+</footer>
+<!-- modals login -->
+<div class="modal fade modal-fs" id="login" tabindex="-1" role="dialog" aria-labelledby="Login">
 
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <a class="pull-right text-warning" type="button" data-dismiss="modal"><i class="fa fa-times fa-3x"></i></a>
+    <p><br><img src="assets/img/logo.png" class="img-responsive"><br></p>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button> &nbsp;<button type="submit" class="btn btn-success">Register</button><p class="pull-right text-danger">Lost Password, <a type="button" data-dismiss="modal" data-toggle="modal" data-target="#reset-pass"><i class="fa fa-lock"> </i> Click Here!!</a></p>
+</form>
 
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /Modal end -->
+<!-- modals Reset Password -->
+<div class="modal fade modal-fs" id="reset-pass" tabindex="-1" role="dialog" aria-labelledby="reset-pass">
 
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <a class="pull-right text-warning" type="button" data-dismiss="modal"><i class="fa fa-times fa-3x"></i></a>
+    <p><br><img src="assets/img/logo.png" class="img-responsive"><br></p>
+      <div class="modal-body">
+        <form>
+        <h3>Reset Password <small>Make sure your email address is active.</small></h3>
+        <hr>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <button type="submit" class="btn btn-primary">Reset Passwort</button>
+</form>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /Modal end -->
+<!-- modals start -->
+<!-- /Modal end -->
     <!-- js here nom -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
