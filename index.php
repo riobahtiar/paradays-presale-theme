@@ -34,7 +34,7 @@
   <img src="assets/img/logo.png" class="img-responsive">
   </br>
 </section>
-<section class="col-xs-12 col-sm-6 col-md-6">
+<section class="col-xs-12 col-sm-6 col-md-6 hidden-xs hidden-sm">
 <span class="pull-right">
 <img src="assets/img/sms.png" class="img-responsive"><br>
 <ul class="list-inline">
@@ -80,7 +80,7 @@
   <strong>PARADE</strong><span class="pull-right"><strong>SEPT#1</strong></span>
   </div>
   <div class="panel-body text-center">
-     <strong>PEMESANAN</strong><br> 01 SEPT 2015 - 15 SEPT 2015 <strong>PRODUKSI</strong><br> 16 SEPT 2015 - 30 SEPT 2015 <strong>PENGIRIMAN</strong><br> 01 OKT 2015 - 05 OKT 2015 <strong>DISCOUNT</strong><br> 3 - 7PCS = 5.000/PCS<br> 8 - 11PCS = 7.500/PCS <br>12++PCS = 10.000/PCS 
+     <strong>PEMESANAN</strong><br> 01 SEPT 2015 - 15 SEPT 2015 <br><strong>PRODUKSI</strong><br> 16 SEPT 2015 - 30 SEPT 2015 <br><strong>PENGIRIMAN</strong><br> 01 OKT 2015 - 05 OKT 2015 <br><strong>DISCOUNT</strong><br> 3 - 7PCS = 5.000/PCS<br> 8 - 11PCS = 7.500/PCS <br>12++PCS = 10.000/PCS 
   </div>
 </div>
 <!-- Cart Kosong -->
@@ -670,8 +670,9 @@
       <input type="checkbox"> Check me out
     </label>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button> &nbsp;<button type="submit" class="btn btn-success">Register</button><p class="pull-right text-danger">Lost Password, <a type="button" data-dismiss="modal" data-toggle="modal" data-target="#reset-pass"><i class="fa fa-lock"> </i> Click Here!!</a></p>
-</form>
+  <button type="submit" class="btn btn-primary">Submit</button> &nbsp;<button type="submit" class="btn btn-success">Register</button>
+</form><br>
+<p class="text-center">Lost Password, <a type="button" data-dismiss="modal" data-toggle="modal" data-target="#reset-pass"><i class="fa fa-lock"> </i> Click Here!!</a></p>
 
       </div>
     </div>
