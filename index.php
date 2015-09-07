@@ -173,7 +173,7 @@
 <div class="col-xs-12 col-sm-6 col-md-4 item">
   <div class="panel panel-product">
   <div class="panel-heading product-img">
-  <img src="assets/img/prod1.jpg" class="img-responsive">
+ <a href="assets/img/prod1.jpg" data-lightbox="prod1" data-title="Titel Gambar Produk" > <img src="assets/img/prod1.jpg" class="img-responsive"></a>
   </div>
   <div class="panel-body text-center">
     <strong>(R6) PINK FLOYD SWEATER</strong>
@@ -220,7 +220,7 @@
 <div class="col-xs-12 col-sm-6 col-md-4 item">
   <div class="panel panel-product">
   <div class="panel-heading product-img">
-  <img src="assets/img/prod2.jpg" class="img-responsive">
+ <a href="assets/img/prod2.jpg" data-lightbox="prod2" data-title="Titel Gambar Produk" > <img src="assets/img/prod2.jpg" class="img-responsive">
   </div>
   <div class="panel-body text-center">
     <strong>(R6) PINK FLOYD SWEATER</strong>
@@ -267,7 +267,7 @@
 <div class="col-xs-12 col-sm-6 col-md-4 item">
   <div class="panel panel-product">
   <div class="panel-heading product-img">
-  <img src="assets/img/prod3.jpg" class="img-responsive">
+ <a href="assets/img/prod3.jpg" data-lightbox="prod3" data-title="Titel Gambar Produk" > <img src="assets/img/prod3.jpg" class="img-responsive"></a>
   </div>
   <div class="panel-body text-center">
     <strong>(R6) PINK FLOYD SWEATER</strong>
@@ -314,7 +314,7 @@
 <div class="col-xs-12 col-sm-6 col-md-4 item">
   <div class="panel panel-product">
   <div class="panel-heading product-img">
-  <img src="assets/img/prod4.jpg" class="img-responsive">
+ <a href="assets/img/prod4.jpg" data-lightbox="prod4" data-title="Titel Gambar Produk" > <img src="assets/img/prod4.jpg" class="img-responsive"></a>
   </div>
   <div class="panel-body text-center">
     <strong>(R6) PINK FLOYD SWEATER</strong>
@@ -361,7 +361,7 @@
 <div class="col-xs-12 col-sm-6 col-md-4 item">
   <div class="panel panel-product">
   <div class="panel-heading product-img">
-  <img src="assets/img/prod5.jpg" class="img-responsive">
+ <a href="assets/img/prod5.jpg" data-lightbox="prod5" data-title="Titel Gambar Produk" > <img src="assets/img/prod5.jpg" class="img-responsive"></a>
   </div>
   <div class="panel-body text-center">
     <strong>(R6) PINK FLOYD SWEATER</strong>
@@ -408,7 +408,7 @@
 <div class="col-xs-12 col-sm-6 col-md-4 item">
   <div class="panel panel-product">
   <div class="panel-heading product-img">
-  <img src="assets/img/prod6.jpg" class="img-responsive">
+ <a href="assets/img/prod6.jpg" data-lightbox="prod6" data-title="Titel Gambar Produk" > <img src="assets/img/prod6.jpg" class="img-responsive"></a>
   </div>
   <div class="panel-body text-center">
     <strong>(R6) PINK FLOYD SWEATER</strong>
@@ -455,7 +455,7 @@
 <div class="col-xs-12 col-sm-6 col-md-4 item">
   <div class="panel panel-product">
   <div class="panel-heading product-img">
-  <img src="assets/img/prod7.jpg" class="img-responsive">
+ <a href="assets/img/prod7.jpg" data-lightbox="prod7" data-title="Titel Gambar Produk" > <img src="assets/img/prod7.jpg" class="img-responsive"></a>
   </div>
   <div class="panel-body text-center">
     <strong>(R6) PINK FLOYD SWEATER</strong>
@@ -502,7 +502,7 @@
 <div class="col-xs-12 col-sm-6 col-md-4 item">
   <div class="panel panel-product">
   <div class="panel-heading product-img">
-  <img src="assets/img/prod8.jpg" class="img-responsive">
+ <a href="assets/img/prod8.jpg" data-lightbox="prod8" data-title="Titel Gambar Produk" > <img src="assets/img/prod8.jpg" class="img-responsive"></a>
   </div>
   <div class="panel-body text-center">
     <strong>(R6) PINK FLOYD SWEATER</strong>
@@ -549,7 +549,7 @@
 <div class="col-xs-12 col-sm-6 col-md-4 item">
   <div class="panel panel-product">
   <div class="panel-heading product-img">
-  <img src="assets/img/prod9.jpg" class="img-responsive">
+ <a href="assets/img/prod9.jpg" data-lightbox="prod9" data-title="Titel Gambar Produk" > <img src="assets/img/prod9.jpg" class="img-responsive"></a>
   </div>
   <div class="panel-body text-center">
     <strong>(R6) PINK FLOYD SWEATER</strong>
@@ -596,7 +596,7 @@
 <div class="col-xs-12 col-sm-6 col-md-4 item">
   <div class="panel panel-product">
   <div class="panel-heading product-img">
-  <img src="assets/img/prod10.jpg" class="img-responsive">
+  <a href="assets/img/prod10.jpg" data-lightbox="prod10" data-title="Titel Gambar Produk" ><img src="assets/img/prod10.jpg" class="img-responsive"></a>
   </div>
   <div class="panel-body text-center">
     <strong>(R6) PINK FLOYD SWEATER</strong>
@@ -707,6 +707,7 @@
     <!-- js here nom -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/lightbox.min.js"></script>
     <script>
     (function ($) {
   $('.spinner .plss').on('click', function() {
