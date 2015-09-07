@@ -7,7 +7,7 @@
     <title>Welcome to Paradays</title>
     <link href="assets/stylesheets/styles.css" rel="stylesheet">
     <link href="assets/stylesheets/font-awesome.min.css" rel="stylesheet">
-    <script src="assets/js/packery.pkgd.min.js"></script>
+    <!-- <script src="assets/js/packery.pkgd.min.js"></script> -->
     <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -169,7 +169,7 @@
 </div>
 
 <article class="col-md-9 product-container">
-<div class="row js-packery" data-packery-options='{ "itemSelector": ".item" }' id="container">
+<div class="row"  id="container">
 <div class="col-xs-12 col-sm-6 col-md-4 item">
   <div class="panel panel-product">
   <div class="panel-heading product-img">
