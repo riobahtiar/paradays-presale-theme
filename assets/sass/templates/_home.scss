@@ -2,196 +2,164 @@
 $tablet-width: 768px;
 $desktop-width: 1024px;
 $phone-width: 360px;
-.text-danger{
-	color:$brand-danger;
-}
-.panel-paradays{
-	background-color: transparent;
-	border-color: #373737;
-	border-width: medium;
-	.panel-heading{
-		background-color: inherit;
-		border-bottom-style: dashed;
-		border-bottom-color: #373737;
-		border-bottom-width: thin;
-	}
-	ul.list-group{
-		background-color: inherit;
-		li.list-group-item{
-			background-color: inherit;
-			border-top-style: dashed;
-			border-top-color: #373737;
-			border-top-width: thin;
-			border-bottom-style: dashed;
-			border-bottom-color: #373737;
-			border-bottom-width: thin;
-			padding: 5px 10px;
-		}
-	}
-}
-.row{
-	.item{
-		height:auto;
-		padding: 5px;
-		.panel-product{
-			border-color: #373737;
-			border-width: thin;
-			border-style: dotted;
-			.product-img{
-				padding: 0;
-				height:auto;
-			}
-			.panel-body{
-				.item-options{
-					border-color: #fff !important;
-					select.pu{
-						color:#fff;
-						text-align: center;
-						border-color: #373737;
-						option.opt{
-							text-indent: 5px;
-						}
-					}
-					select.pn{
-						color:#fff;
-						text-align: center;
-						border-color: #373737;
-						option{
-							//text-indent: 5px;
-						}
-					}
-					select.ps{
-						color:#fff;
-						text-align: center !important;
-						border-color: #373737;
-					}
-					.gj{
-						span{
-						text-align: center !important;
-						border-color:  #373737;
-						background-color:  #373737;
-						color:#fff;
-						}
-						.mins,.plss,input{
-						text-align: center !important;
-						border-color:  #373737;
-						background-color:  #373737;
-						color:#fff;
-						}
-					}
-					.gh{
-						span.th{
-						text-align: center !important;
-						border-color:  #373737;
-						background-color:  #373737;
-						color:#fff;
-						}
-						input.fh{
-						text-align: center !important;
-						border-color:  #373737;
-						background-color:  #373737;
-						color:#fff;
-						}
-					}
-					button.bc{
 
-					}
-				}
-			}
-		}
-	}
-
-}
-.padding-left-zero{
-	padding-left: 0;
-	@media (max-width: 991px) {
-    padding-right: 0;
-	}
+.text-danger {
+    color: $brand-danger;
 }
 
-.product-container{
-	border-color: #373737;
-	border-width: medium;
-	border-style: solid;
+.panel-paradays {
+    background-color: transparent;
+    border-color: #373737;
+    border-width: medium;
+
+    .panel-heading {
+        background-color: inherit;
+        border-bottom-style: dashed;
+        border-bottom-color: #373737;
+        border-bottom-width: thin;
+    }
+
+    ul.list-group {
+        background-color: inherit;
+
+        li.list-group-item {
+            background-color: inherit;
+            border-top-style: dashed;
+            border-top-color: #373737;
+            border-top-width: thin;
+            border-bottom-style: dashed;
+            border-bottom-color: #373737;
+            border-bottom-width: thin;
+            padding: 5px 10px;
+        }
+    }
 }
-ol.breadcrumb{
-	margin-left: auto;
-	margin-right: auto;
-	width:auto;
-	background-color: transparent;
-	padding-bottom: 0;
-	a{
-		color:#fff;
-	}
+
+.product {
+    background-color: #F71414;
+    display: block;
+    height: auto;
+    padding: 10px;
+    .row {
+    	.product-img{
+    		a{
+    			img{
+
+    			}
+    		}
+
+    	}
+    	.product-desc{
+    		margin-left: -15px;
+    		padding: 20px;
+
+    	}
+    }
 }
+
+.padding-left-zero {
+    padding-left: 0;
+
+    @media (max-width: 991px) {
+        padding-right: 0;
+    }
+}
+
+.product-container {
+    border-color: #373737;
+    border-width: medium;
+    border-style: solid;
+}
+
+ol.breadcrumb {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    background-color: transparent;
+    padding-bottom: 0;
+
+    a {
+        color: #fff;
+    }
+}
+
 //Navbar
-.navbar-one{
-	min-height:22px;
-	.container{
-		ul.list-inline{
-			margin-bottom: 0;
-			padding-left: 5px;
-			li{
-				padding:5px;
-				border-bottom-style: solid;
-				border-bottom-color: #252525;
-				border-bottom-width: medium;
-				a{
-						color:#fff;
-				}
-				&.kuning{
-					padding-left: 10px;
-					padding-right: 10px;
-					border-bottom-color: #FDA803;
-				}
-				&:hover{
-					color:#fff;
-					border-bottom-color: #FDA803;
-				}
-			}
+.navbar-one {
+    min-height: 22px;
 
-		}
-	.navbar-header{
-		.navbar-toggle{
-		}
-	}
-	}
-}
-.navbar-two{
-	.navbar-header{
-		.navbar-toggle{
-			float:none;
-			background-color: transparent;
-			color:#fff;
-			border-color: #fff;
-			border-width: medium;
-			font-weight: bold;
-			&:hover{
-				background-color: #fff;
-				color:#030303;
-			}
-		}
-	}
+    .container {
+        ul.list-inline {
+            margin-bottom: 0;
+            padding-left: 5px;
 
+            li {
+                padding: 5px;
+                border-bottom-style: solid;
+                border-bottom-color: #252525;
+                border-bottom-width: medium;
+
+                a {
+                    color: #fff;
+                }
+
+                &.kuning {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    border-bottom-color: #FDA803;
+                }
+
+                &:hover {
+                    color: #fff;
+                    border-bottom-color: #FDA803;
+                }
+            }
+        }
+
+        .navbar-header {
+            .navbar-toggle {}
+        }
+    }
 }
-.nav-pills{
-	@media (max-width: 500px) {
-    margin-bottom: 10px;
-	}	
+
+.navbar-two {
+    .navbar-header {
+        .navbar-toggle {
+            float: none;
+            background-color: transparent;
+            color: #fff;
+            border-color: #fff;
+            border-width: medium;
+            font-weight: bold;
+
+            &:hover {
+                background-color: #fff;
+                color: #030303;
+            }
+        }
+    }
 }
+
+.nav-pills {
+    @media (max-width: 500px) {
+        margin-bottom: 10px;
+    }
+}
+
 // Modals
-.modal-fs{
-	background-color: #000000;
-	height:100%;
-	width:100%;
-	.modal-dialog{
-		border:none;
-		color:#fff;
-		background-color: inherit;
-		.modal-content{
-		border:none;
-		color:#fff;
-		background-color: inherit;
-		}
-	}
+.modal-fs {
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+
+    .modal-dialog {
+        border: none;
+        color: #fff;
+        background-color: inherit;
+
+        .modal-content {
+            border: none;
+            color: #fff;
+            background-color: inherit;
+        }
+    }
 }
