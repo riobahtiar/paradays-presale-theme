@@ -46,7 +46,7 @@
 </section>
 </div>
 
-  
+
 
 <!-- Navbar Two -->
   <nav class="navbar navbar-default navbar-two">
@@ -65,7 +65,7 @@
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
-        <li><a type="button" data-toggle="modal" data-target="#login"><i class="fa fa-sign-in"> </i> Login</a></li>  
+        <li><a type="button" data-toggle="modal" data-target="#login"><i class="fa fa-sign-in"> </i> Login</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
 
@@ -80,7 +80,7 @@
   <strong>PARADE</strong><span class="pull-right"><strong>SEPT#1</strong></span>
   </div>
   <div class="panel-body text-center">
-     <strong>PEMESANAN</strong><br> 01 SEPT 2015 - 15 SEPT 2015 <br><strong>PRODUKSI</strong><br> 16 SEPT 2015 - 30 SEPT 2015 <br><strong>PENGIRIMAN</strong><br> 01 OKT 2015 - 05 OKT 2015 <br><strong>DISCOUNT</strong><br> 3 - 7PCS = 5.000/PCS<br> 8 - 11PCS = 7.500/PCS <br>12++PCS = 10.000/PCS 
+     <strong>PEMESANAN</strong><br> 01 SEPT 2015 - 15 SEPT 2015 <br><strong>PRODUKSI</strong><br> 16 SEPT 2015 - 30 SEPT 2015 <br><strong>PENGIRIMAN</strong><br> 01 OKT 2015 - 05 OKT 2015 <br><strong>DISCOUNT</strong><br> 3 - 7PCS = 5.000/PCS<br> 8 - 11PCS = 7.500/PCS <br>12++PCS = 10.000/PCS
   </div>
 </div>
 <!-- Cart Kosong -->
