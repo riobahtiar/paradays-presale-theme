@@ -36,10 +36,12 @@ $phone-width: 360px;
 }
 
 .product {
-    background-color: #F71414;
     display: block;
     height: auto;
-    padding: 10px;
+    padding: 20px;
+    border-bottom-color: #373737;
+    border-bottom-style: dashed;
+    border-width: thin;
     .row {
     	.product-img{
     		a{
@@ -49,11 +51,18 @@ $phone-width: 360px;
     		}
 
     	}
-    	.product-desc{
-    		margin-left: -15px;
-    		padding: 20px;
+    	.product-option{
+            h2{
+                margin-top: 5px;
+                font-size: 20px;
+                font-weight: 500;
+                color:#FDA803;
 
+            }
     	}
+        .product-checkout{
+            vertical-align: bottom;
+        }
     }
 }
 
